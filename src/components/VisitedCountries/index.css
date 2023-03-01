@@ -1,0 +1,40 @@
+.visited-details {
+  list-style: none;
+  width: 28vw;
+  background-color: #1f1f2f;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.image {
+  height: 30vh;
+  width: 100%;
+}
+.name-container {
+  width: 100%;
+  background-color: #1f1f2f;
+  display: flex;
+  justify-content: space-between;
+}
+.country-name {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #f8fafc;
+  font-weight: 500;
+  margin-left: 8px;
+}
+.remove-btn {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 13px;
+  color: #f8fafc;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid #cbd5e1;
+  margin-right: 8px;
+}
